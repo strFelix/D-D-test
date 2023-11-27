@@ -7,16 +7,10 @@ namespace dandd
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
-            builder
-                .UseMauiApp<App>()
-                .ConfigureFonts(fonts =>
-                {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                });
+            ConfigurationBuilder.ConfigureApp(builder);
 
 #if DEBUG
-		builder.Logging.AddDebug();
+		ConfigurationBuilder.ConfigureDebugger(builder);
 #endif
 
             return builder.Build();

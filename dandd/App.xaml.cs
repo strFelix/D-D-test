@@ -1,4 +1,5 @@
-﻿namespace dandd
+﻿using dandd.Views;
+namespace dandd
 {
     public partial class App : Application
     {
@@ -6,7 +7,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new RaceView();
         }
     }
 }
