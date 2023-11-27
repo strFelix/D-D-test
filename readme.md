@@ -10,6 +10,11 @@ Os recursos a serem consumidos são:
 
 - [Races](https://www.dnd5eapi.co/api/races)
 - [Classes](https://www.dnd5eapi.co/api/classes)
+- [Subraças](https://www.dnd5eapi.co/api/subraces)
+
+## Layout
+
+Siga o layout do [Figma](https://www.figma.com/file/kQsXgjMV9Z4d4tObHjrQ4c/DND-test?type=design&node-id=0-1&mode=design)
 
 ## Notas:
 
