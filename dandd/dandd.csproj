@@ -61,6 +61,8 @@
 	  <None Remove="Resources\Fonts\Roboto-Regular.ttf" />
 	  <None Remove="Resources\Fonts\Roboto-Thin.ttf" />
 	  <None Remove="Resources\Fonts\Roboto-ThinItalic.ttf" />
+	  <None Remove="Resources\Images\dice.png" />
+	  <None Remove="Resources\Images\elf.png" />
 	</ItemGroup>
 
 	<ItemGroup>
