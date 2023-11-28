@@ -6,7 +6,6 @@ namespace dandd
         public App()
         {
             InitializeComponent();
-
             MainPage = new RaceView();
         }
     }

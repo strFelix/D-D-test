@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using dandd.Models;
 
-
 namespace dandd.ViewModels;
 internal partial class RaceViewModel : ObservableObject, IDisposable
 {

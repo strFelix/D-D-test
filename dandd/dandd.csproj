@@ -71,13 +71,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Views\RaceView.xaml.cs">
-	    <DependentUpon>RaceView.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
+	  <MauiXaml Update="Views\ClassView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\RaceView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\SubRaceView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
